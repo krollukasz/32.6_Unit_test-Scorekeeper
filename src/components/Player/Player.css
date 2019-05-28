@@ -1,0 +1,35 @@
+.Player {
+  display: flex;
+  justify-content: center;
+}
+
+.Player span {
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #616161;
+}
+
+.Player__name {
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.Player__score {
+  display: flex;
+  width: 20px;
+  font-weight: bold;
+}
+
+.Player__button {
+  display: flex;
+  width: 20px;
+  background-color: #ffa500;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Player__button:last-of-type {
+  background-color: #a8a4a4;
+  width: 50px;
+}

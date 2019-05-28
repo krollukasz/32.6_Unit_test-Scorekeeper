@@ -1,0 +1,17 @@
+.AddPlayer {
+  margin: 14px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.AddPlayer__input {
+  max-width: 300px;
+  height: 25px;
+}
+
+.AddPlayer__submit {
+  background-color: #45af4e;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
